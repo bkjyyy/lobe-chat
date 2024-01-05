@@ -2,6 +2,217 @@
 
 # Changelog
 
+### [Version 0.119.2](https://github.com/lobehub/lobe-chat/compare/v0.119.1...v0.119.2)
+
+<sup>Released on **2024-01-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix function call error with smooth animation.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix function call error with smooth animation, closes [#946](https://github.com/lobehub/lobe-chat/issues/946) ([7242aee](https://github.com/lobehub/lobe-chat/commit/7242aee))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.119.1](https://github.com/lobehub/lobe-chat/compare/v0.119.0...v0.119.1)
+
+<sup>Released on **2024-01-05**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.119.0](https://github.com/lobehub/lobe-chat/compare/v0.118.10...v0.119.0)
+
+<sup>Released on **2024-01-04**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the ChatList.
+
+#### ✨ Features
+
+- **misc**: Support auto rename topic, support delete and regenerate message, support duplicate session, support duplicate topic.
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix can't uninstall custom plugin in custom plugin modal.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the ChatList ([20f21de](https://github.com/lobehub/lobe-chat/commit/20f21de))
+
+#### What's improved
+
+- **misc**: Support auto rename topic ([4c5a345](https://github.com/lobehub/lobe-chat/commit/4c5a345))
+- **misc**: Support delete and regenerate message ([a05be1c](https://github.com/lobehub/lobe-chat/commit/a05be1c))
+- **misc**: Support duplicate session ([7a1e011](https://github.com/lobehub/lobe-chat/commit/7a1e011))
+- **misc**: Support duplicate topic ([ecf3e5a](https://github.com/lobehub/lobe-chat/commit/ecf3e5a))
+
+#### What's fixed
+
+- **misc**: Fix can't uninstall custom plugin in custom plugin modal ([acae827](https://github.com/lobehub/lobe-chat/commit/acae827))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.118.10](https://github.com/lobehub/lobe-chat/compare/v0.118.9...v0.118.10)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Add chat defaultNS.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Add chat defaultNS, closes [#929](https://github.com/lobehub/lobe-chat/issues/929) ([94c2aa1](https://github.com/lobehub/lobe-chat/commit/94c2aa1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.118.9](https://github.com/lobehub/lobe-chat/compare/v0.118.8...v0.118.9)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add leaving protect alert.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add leaving protect alert, closes [#927](https://github.com/lobehub/lobe-chat/issues/927) ([ea1d0c0](https://github.com/lobehub/lobe-chat/commit/ea1d0c0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.118.8](https://github.com/lobehub/lobe-chat/compare/v0.118.7...v0.118.8)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add Vietnamese files and add the vi-VN option in the General Settings.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add Vietnamese files and add the vi-VN option in the General Settings, closes [#860](https://github.com/lobehub/lobe-chat/issues/860) ([c2e5606](https://github.com/lobehub/lobe-chat/commit/c2e5606))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.118.7](https://github.com/lobehub/lobe-chat/compare/v0.118.6...v0.118.7)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Desensitize openai base url in the error response.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Desensitize openai base url in the error response, closes [#918](https://github.com/lobehub/lobe-chat/issues/918) ([ab0aeb7](https://github.com/lobehub/lobe-chat/commit/ab0aeb7))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.118.6](https://github.com/lobehub/lobe-chat/compare/v0.118.5...v0.118.6)
+
+<sup>Released on **2024-01-03**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Migration the ChatList into Conversation.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Migration the ChatList into Conversation, closes [#916](https://github.com/lobehub/lobe-chat/issues/916) ([6ee3795](https://github.com/lobehub/lobe-chat/commit/6ee3795))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 0.118.5](https://github.com/lobehub/lobe-chat/compare/v0.118.4...v0.118.5)
 
 <sup>Released on **2024-01-02**</sup>
