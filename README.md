@@ -42,6 +42,8 @@ Supports one-click free deployment of your private ChatGPT/LLM web application.
 
 <sup>Pioneering the new age of thinking and creating. Built for you, the Super Individual.</sup>
 
+[![][github-trending-shield]][github-trending-url]
+
 ![](https://gw.alipayobjects.com/zos/kitchen/RKnWrrfuMl/welcome.webp)
 
 </div>
@@ -184,14 +186,14 @@ e-commerce platform data access, and various third-party services.
 
 <!-- PLUGIN LIST -->
 
-| Recent Submits                                                                                                  | Description                                                                                                                                     |
-| --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [GameSight](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **tapapis** on **2024-01-23**</sup>    | Discover games, game-related content, get recommendations, and compare games based on player reviews.<br/>`game` `search`                       |
-| [txyz.ai](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **txyz** on **2024-01-23**</sup>         | Explore the universe of research. Search and compare papers, and answer questions.<br/>`research-paper` `search`                                |
-| [SEO](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **orrenprunckun** on **2024-01-23**</sup>    | Enter any URL and keyword and get an On-Page SEO analysis & insights!<br/>`seo`                                                                 |
-| [Video Captions](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **maila** on **2024-01-23**</sup> | Convert Youtube links into transcribed text, enable asking questions, create chapters, and summarize its content.<br/>`video-to-text` `youtube` |
+| Recent Submits                                                                                                    | Description                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Charts & Diagrams](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **pyxl** on **2024-02-05**</sup> | Mermaid Diagrams, Schemes for Presentations, Analysis, research websites, pie charts.<br/>`chart` `diagram`                                                                                                                     |
+| [Social Search](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **say-apps** on **2024-02-02**</sup> | The Social Search provides access to tweets, users, followers, images, media and more.<br/>`social` `twitter` `x` `search`                                                                                                      |
+| [TokenInsights](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **feednews** on **2024-01-27**</sup> | Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.<br/>`crypto` `btc` `eth` `bnb`                                                                                |
+| [Bilibili](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **LobeHub** on **2024-01-27**</sup>       | Dive into Bilibili's vast content with features like keyword video search, replay access, interactive danmaku, trending video recommendations, and hot-search insights, all at your fingertips.<br/>`video` `bilibili` `search` |
 
-> 📊 Total plugins: [<kbd>**40**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**61**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
@@ -223,14 +225,14 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
-| Recent Submits                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                           |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Intent Resonance GPT](https://chat-preview.lobehub.com/market?agent=intention-resonates-gpt)<br/><sup>By **[AIConductor](https://github.com/AIConductor)** on **2024-01-24**</sup> | An AI focused on deeply understanding user needs, accurately capturing user intent and requirements through continuous intent alignment, and providing the most suitable solutions.<br/>`conversation` `deep-understanding`                                                           |
-| [Startup Tech Lawyer](https://chat-preview.lobehub.com/market?agent=tech-lawyer)<br/><sup>By **[daniel-jojo](https://github.com/daniel-jojo)** on **2024-01-23**</sup>              | In-house legal counsel for a tech startup, offering clear, practical legal advice to support the startup's growth and protect its interests.<br/>`intellectual-property-law` `data-privacy-compliance` `contract-negotiation` `tech-startup-legal-strategy` `employment-law-guidance` |
-| [Shopping Assistant](https://chat-preview.lobehub.com/market?agent=shop)<br/><sup>By **[guluahljj](https://github.com/guluahljj)** on **2024-01-22**</sup>                          | Shopping assistant, specializing in product search, price comparison, and providing purchase links<br/>`shopping-assistant` `product-search` `price-comparison` `purchase-advice` `customer-consultation` `agulu`                                                                     |
-| [Accounting Expert Assistant](https://chat-preview.lobehub.com/market?agent=accounting)<br/><sup>By **[MYSeaIT](https://github.com/MYSeaIT)** on **2024-01-21**</sup>               | Accountant Agent: Comprehensive accounting support and expertise for individuals and businesses worldwide.<br/>`accounting` `financial-management` `tax-planning` `budgeting`                                                                                                         |
+| Recent Submits                                                                                                                                              | Description                                                                                                                                                                                                                                                                                           |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [CAN: Code Master](https://chat-preview.lobehub.com/market?agent=can)<br/><sup>By **[MrHuangJser](https://github.com/MrHuangJser)** on **2024-02-06**</sup> | CAN: Professional coding expert with years of experience and no character limit. Provides entrepreneurial services such as creative naming, slogans, user profiles, pain points, value propositions, sales channels, revenue streams, and cost structures.<br/>`coding` `communication` `questioning` |
+| [Database Expert](https://chat-preview.lobehub.com/market?agent=dba)<br/><sup>By **[xuzhen1994](https://github.com/xuzhen1994)** on **2024-02-03**</sup>    | Provides professional advice on database design paradigms, index optimization, query performance tuning, data security, backup and recovery.<br/>`database` `dba` `mysql` `clickhouse` `doris` `mongo-db` `oracle`                                                                                    |
+| [Presentation Wizard](https://chat-preview.lobehub.com/market?agent=word)<br/><sup>By **[MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-03**</sup>     | App Presentation Maker Bot for Word: Assists in creating impressive and professional app presentations in Microsoft Word.<br/>`app-presentation` `microsoft-word` `bot` `assistance` `template`                                                                                                       |
+| [SagePathfinder](https://chat-preview.lobehub.com/market?agent=sage-pathfinder)<br/><sup>By **[Ajasra](https://github.com/Ajasra)** on **2024-01-31**</sup> | Expert in personal growth coaching with a focus on stoicism, deep reflection, and strategic questioning.<br/>`personal-growth` `coaching` `reflection` `goal-setting` `well-being`                                                                                                                    |
 
-> 📊 Total agents: [<kbd>**114**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**150**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
@@ -597,7 +599,7 @@ This project is [MIT](./LICENSE) licensed.
 [codespaces-link]: https://codespaces.new/lobehub/lobe-chat
 [codespaces-shield]: https://github.com/codespaces/badge.svg
 [deploy-button-image]: https://vercel.com/button
-[deploy-link]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat&env=OPENAI_API_KEY&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=lobe-chat&repository-name=lobe-chat
+[deploy-link]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat&env=OPENAI_API_KEY,ACCESS_CODE&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.%20%7C%20Access%20Code%20can%20protect%20your%20website&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=lobe-chat&repository-name=lobe-chat
 [deploy-on-sealos-button-image]: https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg
 [deploy-on-sealos-link]: https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dlobe-chat
 [deploy-on-zeabur-button-image]: https://zeabur.com/button.svg
@@ -633,6 +635,8 @@ This project is [MIT](./LICENSE) licensed.
 [github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-chat?labelColor=black&style=flat-square
 [github-stars-link]: https://github.com/lobehub/lobe-chat/network/stargazers
 [github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-chat?color=ffcb47&labelColor=black&style=flat-square
+[github-trending-shield]: https://trendshift.io/api/badge/repositories/2256
+[github-trending-url]: https://trendshift.io/repositories/2256
 [github-wiki-link]: https://github.com/lobehub/lobe-chat/wiki
 [issues-link]: https://img.shields.io/github/issues/lobehub/lobe-chat.svg?style=flat
 [lobe-assets-github]: https://github.com/lobehub/lobe-assets

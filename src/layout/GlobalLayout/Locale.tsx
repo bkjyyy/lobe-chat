@@ -1,10 +1,12 @@
 import { ConfigProvider } from 'antd';
 import { PropsWithChildren, memo, useEffect, useState } from 'react';
+import { isRtlLang } from 'rtl-detect';
 import useSWR from 'swr';
 
 import { createI18nNext } from '@/locales/create';
 import { normalizeLocale } from '@/locales/resources';
 import { useOnFinishHydrationGlobal } from '@/store/global';
+import { settingsSelectors } from '@/store/global/selectors';
 import { isOnServerSide } from '@/utils/env';
 import { switchLang } from '@/utils/switchLang';
 
@@ -32,6 +34,7 @@ const Locale = memo<LocaleLayoutProps>(({ children, defaultLang }) => {
   const [lang, setLang] = useState(defaultLang);
 
   const { data: locale } = useSWR(['antd-locale', lang], ([, key]) => getAntdLocale(key), {
+    dedupingInterval: 0,
     revalidateOnFocus: false,
   });
 
@@ -48,7 +51,7 @@ const Locale = memo<LocaleLayoutProps>(({ children, defaultLang }) => {
   }
 
   useOnFinishHydrationGlobal((s) => {
-    if (s.settings.language === 'auto') {
+    if (settingsSelectors.currentSettings(s).language === 'auto') {
       switchLang('auto');
     }
   }, []);
@@ -65,7 +68,14 @@ const Locale = memo<LocaleLayoutProps>(({ children, defaultLang }) => {
     };
   }, [i18n]);
 
-  return <ConfigProvider locale={locale}>{children}</ConfigProvider>;
+  // detect document direction
+  const documentDir = isRtlLang(lang!) ? 'rtl' : 'ltr';
+
+  return (
+    <ConfigProvider direction={documentDir} locale={locale}>
+      {children}
+    </ConfigProvider>
+  );
 });
 
 export default Locale;
