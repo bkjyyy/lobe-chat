@@ -205,14 +205,14 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- AGENT LIST -->
 
-| 最近新增                                                                                                                                                    | 助手说明                                                                                                                                                   |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [CAN: 编程大师](https://chat-preview.lobehub.com/market?agent=can)<br/><sup>By **[MrHuangJser](https://github.com/MrHuangJser)** on **2024-02-06**</sup>    | CAN: 专业编程专家，多年经验，无字符限制。提供创意命名、标语、用户画像、痛点、价值主张、销售渠道、收入流、成本结构等创业计划服务。<br/>`编程` `交流` `提问` |
-| [数据库专家](https://chat-preview.lobehub.com/market?agent=dba)<br/><sup>By **[xuzhen1994](https://github.com/xuzhen1994)** on **2024-02-03**</sup>         | 提供关于数据库设计范式、索引优化、查询性能调优、数据安全、备份与恢复等方面的专业建议<br/>`数据库` `dba` `mysql` `clickhouse` `doris` `mongo-db` `oracle`   |
-| [演示向导](https://chat-preview.lobehub.com/market?agent=word)<br/><sup>By **[MYSeaIT](https://github.com/MYSeaIT)** on **2024-02-03**</sup>                | Word 应用演示制作机器人：帮助在 Microsoft Word 中创建令人印象深刻和专业的应用程序演示。<br/>`应用程序演示` `微软-word` `机器人` `辅助` `模板`              |
-| [SagePathfinder](https://chat-preview.lobehub.com/market?agent=sage-pathfinder)<br/><sup>By **[Ajasra](https://github.com/Ajasra)** on **2024-01-31**</sup> | 专注于斯多葛主义、深度反思和战略性提问的个人成长教练专家。<br/>`个人成长` `教练` `反思` `目标设定` `幸福感`                                                |
+| 最近新增                                                                                                                                                                         | 助手说明                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [词汇大师](https://chat-preview.lobehub.com/market?agent=awl-vocab-wizard)<br/><sup>By **[bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>                     | 擅长生成词汇列表和多项选择测试<br/>`词汇` `学术词汇表` `语言学习` `测试`                         |
+| [英语熟练度评估器](https://chat-preview.lobehub.com/market?agent=english-proficiency-assessor)<br/><sup>By **[bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup> | 专业创建自适应英语熟练度诊断测试的专家<br/>`测试创建` `英语熟练度` `评估`                        |
+| [术语表生成器](https://chat-preview.lobehub.com/market?agent=glossary-generator)<br/><sup>By **[bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>               | 擅长生成带有英文定义和例句的术语表<br/>`术语表` `翻译` `语言`                                    |
+| [语法工作表生成器](https://chat-preview.lobehub.com/market?agent=grammar-revision-worksheets)<br/><sup>By **[bentwnghk](https://github.com/bentwnghk)** on **2024-02-09**</sup>  | 专注于创建英语语法学习材料和练习<br/>`english-grammar` `worksheet` `learning` `practice` `mc-qs` |
 
-> 📊 Total agents: [<kbd>**150**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**170**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
