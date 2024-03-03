@@ -2,6 +2,206 @@
 
 # Changelog
 
+### [Version 0.130.6](https://github.com/lobehub/lobe-chat/compare/v0.130.5...v0.130.6)
+
+<sup>Released on **2024-03-01**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the plugin and tool slice.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the plugin and tool slice, closes [#1437](https://github.com/lobehub/lobe-chat/issues/1437) ([003e230](https://github.com/lobehub/lobe-chat/commit/003e230))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.130.5](https://github.com/lobehub/lobe-chat/compare/v0.130.4...v0.130.5)
+
+<sup>Released on **2024-03-01**</sup>
+
+#### 💄 Styles
+
+- **misc**: Support switch model with tag.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Support switch model with tag, closes [#1435](https://github.com/lobehub/lobe-chat/issues/1435) ([233150e](https://github.com/lobehub/lobe-chat/commit/233150e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.130.4](https://github.com/lobehub/lobe-chat/compare/v0.130.3...v0.130.4)
+
+<sup>Released on **2024-02-29**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the core chatStream and plugin gateway auth.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the core chatStream and plugin gateway auth, closes [#1426](https://github.com/lobehub/lobe-chat/issues/1426) ([7d3c1b6](https://github.com/lobehub/lobe-chat/commit/7d3c1b6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.130.3](https://github.com/lobehub/lobe-chat/compare/v0.130.2...v0.130.3)
+
+<sup>Released on **2024-02-29**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the google api route and add more tests for chat route.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the google api route and add more tests for chat route, closes [#1424](https://github.com/lobehub/lobe-chat/issues/1424) ([063a4d5](https://github.com/lobehub/lobe-chat/commit/063a4d5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.130.2](https://github.com/lobehub/lobe-chat/compare/v0.130.1...v0.130.2)
+
+<sup>Released on **2024-02-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Update azure OpenAI api version options to latest.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Update azure OpenAI api version options to latest, closes [#1423](https://github.com/lobehub/lobe-chat/issues/1423) ([d992262](https://github.com/lobehub/lobe-chat/commit/d992262))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.130.1](https://github.com/lobehub/lobe-chat/compare/v0.130.0...v0.130.1)
+
+<sup>Released on **2024-02-28**</sup>
+
+#### 🐛 Bug Fixes
+
+- **google**: Add safetySettings to avoid error response with google AI model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **google**: Add safetySettings to avoid error response with google AI model, closes [#1418](https://github.com/lobehub/lobe-chat/issues/1418) ([87bf1fb](https://github.com/lobehub/lobe-chat/commit/87bf1fb))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.130.0](https://github.com/lobehub/lobe-chat/compare/v0.129.6...v0.130.0)
+
+<sup>Released on **2024-02-27**</sup>
+
+#### ✨ Features
+
+- **misc**: Support multiple API Keys.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support multiple API Keys, closes [#1345](https://github.com/lobehub/lobe-chat/issues/1345) ([17c5da3](https://github.com/lobehub/lobe-chat/commit/17c5da3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.129.6](https://github.com/lobehub/lobe-chat/compare/v0.129.5...v0.129.6)
+
+<sup>Released on **2024-02-25**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix github url.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix github url ([42ea0f5](https://github.com/lobehub/lobe-chat/commit/42ea0f5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 0.129.5](https://github.com/lobehub/lobe-chat/compare/v0.129.4...v0.129.5)
 
 <sup>Released on **2024-02-25**</sup>
