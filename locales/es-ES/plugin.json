@@ -5,6 +5,7 @@
     "off": "Desactivado",
     "on": "Ver información de llamada de complemento",
     "payload": "carga del complemento",
+    "pluginState": "Estado del plugin",
     "response": "Respuesta",
     "tool_call": "solicitud de llamada de herramienta"
   },
@@ -34,14 +35,45 @@
         "label": "Identificador"
       },
       "mode": {
-        "local": "Configuración visual",
-        "local-tooltip": "La configuración visual no está disponible temporalmente",
+        "mcp": "Plugin MCP",
+        "mcpExp": "Experimental",
         "url": "Enlace en línea"
       },
       "name": {
         "desc": "Título del complemento",
         "label": "Título",
         "placeholder": "Buscar motor de búsqueda"
+      }
+    },
+    "mcp": {
+      "args": {
+        "desc": "Lista de parámetros a pasar al comando STDIO",
+        "label": "Parámetros del comando",
+        "placeholder": "Por ejemplo: --port 8080 --debug",
+        "tooltip": "Presiona enter o usa comas/espacios para separar los parámetros después de ingresarlos"
+      },
+      "command": {
+        "desc": "Archivo ejecutable o script para iniciar el complemento MCP STDIO",
+        "label": "Comando",
+        "placeholder": "Por ejemplo: python main.py o /ruta/al/ejecutable"
+      },
+      "endpoint": {
+        "desc": "Ingresa la dirección de tu servidor HTTP Streamable MCP",
+        "label": "URL del Endpoint MCP"
+      },
+      "identifier": {
+        "desc": "Especifica un nombre para tu complemento MCP, debe usar caracteres en inglés",
+        "invalid": "Solo se pueden ingresar caracteres en inglés, números, y los símbolos - y _",
+        "label": "Nombre del complemento MCP",
+        "placeholder": "Por ejemplo: my-mcp-plugin"
+      },
+      "type": {
+        "desc": "Selecciona el método de comunicación del complemento MCP, la versión web solo admite HTTP Streamable",
+        "label": "Tipo de complemento MCP"
+      },
+      "url": {
+        "desc": "Introduce la dirección HTTP transmitible de tu servidor MCP, que no debe terminar con /sse",
+        "label": "URL del Endpoint HTTP"
       }
     },
     "meta": {
@@ -118,6 +150,10 @@
     "reinstallError": "Error al volver a instalar el complemento {{name}}.",
     "urlError": "El enlace no devuelve contenido en formato JSON. Asegúrese de que sea un enlace válido."
   },
+  "inspector": {
+    "args": "Ver lista de parámetros",
+    "pluginRender": "Ver interfaz del plugin"
+  },
   "list": {
     "item": {
       "deprecated.title": "Obsoleto",
@@ -130,6 +166,34 @@
     "plugin": "Ejecutando complemento..."
   },
   "pluginList": "Lista de complementos",
+  "search": {
+    "config": {
+      "addKey": "Agregar clave",
+      "close": "Eliminar",
+      "confirm": "Configuración completada, intente de nuevo"
+    },
+    "crawPages": {
+      "crawling": "Reconocimiento de enlaces",
+      "detail": {
+        "preview": "Vista previa",
+        "raw": "Texto original",
+        "tooLong": "El contenido del texto es demasiado largo, el contexto de la conversación solo retiene los primeros {{characters}} caracteres, el resto no se incluye en el contexto de la conversación"
+      },
+      "meta": {
+        "crawler": "Modo de rastreo",
+        "words": "Número de caracteres"
+      }
+    },
+    "searchxng": {
+      "baseURL": "Introduzca",
+      "description": "Introduzca la URL de SearchXNG para comenzar la búsqueda en línea",
+      "keyPlaceholder": "Introduzca la clave",
+      "title": "Configurar el motor de búsqueda SearchXNG",
+      "unconfiguredDesc": "Por favor, contacte al administrador para completar la configuración del motor de búsqueda SearchXNG y comenzar la búsqueda en línea",
+      "unconfiguredTitle": "Motor de búsqueda SearchXNG no configurado"
+    },
+    "title": "Búsqueda en línea"
+  },
   "setting": "Configuración de complementos",
   "settings": {
     "indexUrl": {

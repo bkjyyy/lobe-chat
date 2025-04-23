@@ -5,6 +5,7 @@
     "off": "Turn off debug",
     "on": "View plugin invocation information",
     "payload": "plugin payload",
+    "pluginState": "Plugin State",
     "response": "Response",
     "tool_call": "tool call request"
   },
@@ -34,14 +35,40 @@
         "label": "Identifier"
       },
       "mode": {
-        "local": "Visual Configuration",
-        "local-tooltip": "Visual configuration is not supported at the moment",
+        "mcp": "MCP Plugin",
+        "mcpExp": "Experimental",
         "url": "Online Link"
       },
       "name": {
         "desc": "The title of the plugin",
         "label": "Title",
         "placeholder": "Search Engine"
+      }
+    },
+    "mcp": {
+      "args": {
+        "label": "Command Parameters"
+      },
+      "command": {
+        "label": "Command"
+      },
+      "endpoint": {
+        "desc": "Enter the address of your MCP Streamable HTTP Server",
+        "label": "MCP Endpoint URL"
+      },
+      "identifier": {
+        "desc": "Specify a name for your MCP plugin, using English characters",
+        "invalid": "Only English letters, numbers, - and _ are allowed",
+        "label": "MCP Plugin Name",
+        "placeholder": "e.g., my-mcp-plugin"
+      },
+      "type": {
+        "desc": "Select the communication method for the MCP plugin; the web version only supports Streamable HTTP",
+        "label": "MCP Plugin Type"
+      },
+      "url": {
+        "desc": "Enter your MCP Server Streamable HTTP address, which should not end with /sse",
+        "label": "HTTP Endpoint URL"
       }
     },
     "meta": {
@@ -118,6 +145,10 @@
     "reinstallError": "Failed to refresh plugin {{name}}",
     "urlError": "The link did not return content in JSON format. Please ensure it is a valid link."
   },
+  "inspector": {
+    "args": "View parameter list",
+    "pluginRender": "View plugin interface"
+  },
   "list": {
     "item": {
       "deprecated.title": "Deleted",
@@ -130,6 +161,34 @@
     "plugin": "Plugin is running..."
   },
   "pluginList": "Plugin List",
+  "search": {
+    "config": {
+      "addKey": "Add Key",
+      "close": "Delete",
+      "confirm": "Configuration completed, please retry"
+    },
+    "crawPages": {
+      "crawling": "Identifying links",
+      "detail": {
+        "preview": "Preview",
+        "raw": "Raw text",
+        "tooLong": "The text content is too long; only the first {{characters}} characters of the conversation context will be retained, and the excess will not be included in the conversation context."
+      },
+      "meta": {
+        "crawler": "Crawling Mode",
+        "words": "Character count"
+      }
+    },
+    "searchxng": {
+      "baseURL": "Please enter",
+      "description": "Enter the URL for SearchXNG to start online searching",
+      "keyPlaceholder": "Please enter key",
+      "title": "Configure SearchXNG Search Engine",
+      "unconfiguredDesc": "Please contact the administrator to complete the SearchXNG search engine configuration to start online searching",
+      "unconfiguredTitle": "SearchXNG search engine not configured yet"
+    },
+    "title": "Online Search"
+  },
   "setting": "Plugin Settings",
   "settings": {
     "indexUrl": {
